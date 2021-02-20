@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="patient_register_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>501</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="register_id_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>25</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>账号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="register_password_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>93</y>
+      <width>25</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="register_name_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>136</y>
+      <width>24</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="register_idcard_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>178</y>
+      <width>49</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>身份证号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="register_address_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>221</y>
+      <width>25</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>地址</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="register_age_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>264</y>
+      <width>25</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>年龄</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="registerid_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>50</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="register_password_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>93</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="register_name_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>136</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="register_idcard_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>178</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="register_address_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>221</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="register_age_input">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>264</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="register_submit_button">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="register_cancle_button">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

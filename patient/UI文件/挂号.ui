@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="second_page_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>981</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>挂号单</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>医院</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>69</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>100</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>科室</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>100</y>
+      <width>69</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>甲</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>乙</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>挂号类型</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>时间</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>300</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>时长</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>300</y>
+      <width>69</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>一小时</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>一个半小时</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>两小时</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>370</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>医生</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>600</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>600</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEdit">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>194</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>160</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>103</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>为他人挂号</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>103</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>为自己挂号</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>350</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>103</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>推荐医生</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>20</y>
+       <width>103</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>自己选择</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>891</width>
+      <height>161</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>29</y>
+     <width>981</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <widget class="QComboBox" name="ComRan_comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>201</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>综合排序</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="area_comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>201</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>地区选择</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>甘井子</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>911</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

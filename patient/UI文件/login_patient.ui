@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="login_Dialog" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>501</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="register_button">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>250</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>注册</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login_button">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>250</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="patient_ID_input">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>181</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doctor_login_button">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>330</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>医生登录</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="patient_password_input">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>210</y>
+      <width>181</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="manager_login_button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>330</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>管理员登录</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="top_picture_Dialog">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../.designer/backup/pic1.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="profile_picture_lable">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../.designer/backup/pic1.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="subtrack_button">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../subtract.png</normaloff>../subtract.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../close.png</normaloff>../close.png</iconset>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
